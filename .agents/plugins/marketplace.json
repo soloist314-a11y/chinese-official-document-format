@@ -1,0 +1,20 @@
+{
+  "name": "soloist314-skills",
+  "interface": {
+    "displayName": "我的公文技能"
+  },
+  "plugins": [
+    {
+      "name": "chinese-official-document-format",
+      "source": {
+        "source": "local",
+        "path": "./plugins/chinese-official-document-format"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
