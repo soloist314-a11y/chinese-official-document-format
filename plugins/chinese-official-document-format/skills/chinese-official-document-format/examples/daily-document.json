@@ -1,0 +1,30 @@
+{
+  "mode": "daily",
+  "blocks": [
+    {"role": "title", "text": "关于工作安排的说明"},
+    {"role": "recipient", "text": "有关单位："},
+    {"role": "body", "text": "根据工作需要，现将有关事项说明如下。"},
+    {"role": "h1", "text": "一、工作内容"},
+    {"role": "h2", "text": "（一）明确任务"},
+    {"role": "h3", "text": "1.细化工作安排"},
+    {"role": "body", "text": "请按实际情况填写具体任务、责任分工及完成时间。文稿中的编号由编写者提供，不使用自动编号。"},
+    {"role": "table_title", "text": "工作安排表"},
+    {
+      "role": "table",
+      "font_size_pt": 12,
+      "line_pt": 16,
+      "header_rows": 1,
+      "rows": [["事项", "要求"], ["资料准备", "按实际需要补充"]]
+    },
+    {"role": "body", "text": "后续事项按实际进展补充。"},
+    {
+      "role": "attachment_list",
+      "items": [
+        {"text": "附件：工作清单", "continuation_indent_chars": 5}
+      ]
+    },
+    {"role": "appendix_marker", "text": "附件"},
+    {"role": "title", "text": "工作清单"},
+    {"role": "body", "text": "本例不包含固定单位名称、人员姓名、签章或者真实业务信息。请在正式文稿中根据实际内容填写。"}
+  ]
+}
