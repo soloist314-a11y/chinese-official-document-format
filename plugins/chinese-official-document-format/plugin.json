@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "chinese-official-document-format",
+  "version": "1.0.0",
+  "description": "按常用公文格式生成、调整和检查可编辑 Word 文档，保留当次业务内容。",
+  "author": {
+    "name": "soloist314-a11y"
+  },
+  "repository": "https://github.com/soloist314-a11y/chinese-official-document-format",
+  "homepage": "https://github.com/soloist314-a11y/chinese-official-document-format",
+  "keywords": [
+    "chinese",
+    "official-document",
+    "docx",
+    "formatting"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "公文格式处理",
+        "shortDescription": "按常用公文规则处理 Word 的字体、标题层级、附件与版记",
+        "longDescription": "按常用公文格式生成、调整和检查可编辑 Word 文档，保留当次业务内容。 包含匿名化格式规则与仅依赖 Python 标准库的日常公文生成及结构检查脚本。",
+        "developerName": "soloist314-a11y",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/soloist314-a11y/chinese-official-document-format",
+        "defaultPrompt": [
+          "将我提供的内容按我的公文格式排成 Word，并检查分页。",
+          "检查这份 Word 公文的格式，保留正文和表格数据。"
+        ]
+      }
+    }
+  }
+}
